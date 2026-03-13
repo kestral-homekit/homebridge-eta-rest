@@ -78,7 +78,7 @@ export class EtaRestV3Platform implements DynamicPlatformPlugin {
       },
     ];
 
-const desiredKeys = new Set<string>(desired.map(item => item.key));
+    const desiredKeys = new Set<string>(desired.map(item => item.key));
     for (const cachedAccessory of this.accessories) {
       const accessoryKey = String(cachedAccessory.context.deviceKey ?? '');
 
