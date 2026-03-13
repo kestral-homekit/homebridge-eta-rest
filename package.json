@@ -1,46 +1,62 @@
 {
   "name": "homebridge-eta-rest",
   "displayName": "Homebridge ETA REST",
-  "type": "module",
   "version": "1.0.0",
-  "description": "Homebridge plugin for ETA boiler REST API",
-  "author": "Martial Bujard",
+  "description": "Homebridge plugin for ETA pellet boilers using the ETA REST API.",
+  "author": "Kestral",
   "license": "Apache-2.0",
+
+  "homepage": "https://github.com/kestral-homekit/homebridge-eta-rest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kestral-homekit/homebridge-eta-rest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kestral-homekit/homebridge-eta-rest/issues"
+  },
+
   "keywords": [
     "homebridge-plugin",
     "homebridge",
+    "homekit",
     "eta",
     "boiler",
-    "rest"
+    "pellet",
+    "heating",
+    "rest",
+    "temperature"
   ],
+
+  "type": "module",
+
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+
   "engines": {
     "node": ">=18.0.0",
     "homebridge": "^1.8.0 || ^2.0.0-beta.0"
   },
+
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "lint": "eslint . --max-warnings=0",
     "prepublishOnly": "npm run lint && npm run build",
     "watch": "npm run build && npm link && nodemon"
   },
+
   "homebridge": {
     "pluginAlias": "EtaRestV3",
     "pluginType": "platform"
   },
+
   "dependencies": {
     "homebridge-lib": "^7.1.12"
   },
+
   "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/node": "^24.10.1",
-    "eslint": "^9.39.1",
-    "homebridge": "^2.0.0-beta.55",
-    "nodemon": "^3.1.11",
-    "rimraf": "^6.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.4"
+    "@types/node": "^20.0.0",
+    "eslint": "^9.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
   }
 }
