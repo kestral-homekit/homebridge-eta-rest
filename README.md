@@ -19,14 +19,14 @@ Install the plugin globally: npm install -g homebridge-eta-rest or install it di
 ## CONFIGURATION
 Example configuration in config.json: 
 ```
-{ "platform":
-    "EtaRestV3", "name": 
-    "ETA REST", "baseUrl": "http://ETA-IP:8080/user/var", 
+{   "platform":"EtaRestV3",
+    "name":"ETA REST",
+    "baseUrl":"http://ETA-IP:8080/user/var", 
     "pollInterval": 60, 
     "paths": {
-    "boilerFlowTemp": "/120/10101/0/0/12241", 
-    "dhwTemp": "/120/10111/0/0/12271", 
-    "outdoorTemp": "/40/10241/0/0/12197"
+         "boilerFlowTemp": "/120/10101/0/0/12241", 
+         "dhwTemp": "/120/10111/0/0/12271", 
+         "outdoorTemp": "/40/10241/0/0/12197"
     } 
 }
 ```
