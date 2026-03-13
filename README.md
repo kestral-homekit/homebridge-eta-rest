@@ -40,7 +40,13 @@ Example REST call: http://ETA-IP:8080/user/var/120/10101/0/0/12241
 The returned XML value is converted and exposed to HomeKit.  
 ## DEVELOPMENT
 Source code: https://github.com/kestral-homekit/homebridge-eta-rest 
-Contributions and issues are welcome.  
+Contributions and issues are welcome.
+## ROADMAP
+Planned improvements for future versions:
+- Homebridge UI configuration
+- auto-discover ETA endpoints
+- additionnal boilers sensors
+- Improved diagnostic and logging
 ## LICENSE
 Apache-2.0
 
