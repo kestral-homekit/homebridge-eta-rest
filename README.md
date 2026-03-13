@@ -41,8 +41,7 @@ The returned XML value is converted and exposed to HomeKit.
 ## DEVELOPMENT
 Source code: https://github.com/kestral-homekit/homebridge-eta-rest 
 Contributions and issues are welcome.  
-It's my very first HomeBridge plug-in, after month of private use, I finnaly decided to get it open source :-) I'll appreciate any comments !
 ## LICENSE
 Apache-2.0
 
-*Note: This is my first Homebridge plugin. After several months of private use, I decided to release it as open source. Feedback and suggestions are very welcome!*
+*Note: This is my very first Homebridge plugin. After several months of private use, I decided to release it as open source. Feedback and suggestions are very welcome!*
