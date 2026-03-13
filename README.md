@@ -1,4 +1,6 @@
-<p align="center">
+![npm](https://img.shields.io/npm/v/homebridge-eta-rest)
+![downloads](https://img.shields.io/npm/dm/homebridge-eta-rest)
+![license](https://img.shields.io/npm/l/homebridge-eta-rest)<p align="center">
 
 <img src="https://github.com/homebridge/branding/raw/latest/logos/homebridge-wordmark-logo-vertical.png" width="150">
 
